@@ -76,7 +76,7 @@ a:hover {
   width: 60%;
   height: 250px;
   background-color: aqua;
-  background-image: url(images/trump.png);
+  background-image: url(Images/trump.png);
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
@@ -87,7 +87,7 @@ a:hover {
   background-color: blanchedalmond;
   width: 40%;
   height: 250px;
-  background-image: url(images/Sangkran.jpg);
+  background-image: url(Images/Sangkran.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
@@ -152,7 +152,7 @@ a:hover {
 .box3{
   width: 60%;
   height: 250px;
-  background-image: url(images/sai.jpg);
+  background-image: url(Images/sai.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
@@ -160,7 +160,7 @@ a:hover {
 .box4{
   width: 40%;
   height: 250px;
-  background-image: url(images/Nesha.jpg);
+  background-image: url(Images/Nesha.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
