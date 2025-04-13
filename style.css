@@ -125,7 +125,7 @@ a:hover {
   padding: 5px 30px 5px 15px;
   margin: 6px 0;
   color: white;
-  background-color: green;
+  background-color: #38C378;
   position: absolute;
   top: 6px;
   -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 100%, 80% 0);
@@ -190,7 +190,7 @@ a:hover {
 }
 
 .box4 .shadow .rectangle {
-  background-color: chocolate;
+  background-color: #F9A62B;
 }
 
 .right {
@@ -212,6 +212,31 @@ a:hover {
   height: 50px;
   border-bottom: 5px solid red;
 }
+.title-box-intertain {
+  width: 100%;
+  background-color: #eaeaea;
+  height: 50px;
+  border-bottom: 5px solid #FA5480;
+}
+
+.title-box-technology {
+  width: 100%;
+  background-color: #eaeaea;
+  height: 50px;
+  border-bottom: 5px solid #4390F8;
+}
+.title-box-lifeandsocial {
+  width: 100%;
+  background-color: #eaeaea;
+  height: 50px;
+  border-bottom: 5px solid #38C378;
+}
+.title-box-sport {
+  width: 100%;
+  background-color: #eaeaea;
+  height: 50px;
+  border-bottom: 5px solid #F9A62B;
+}
 
 .title {
   width: 100px;
@@ -227,6 +252,61 @@ a:hover {
   clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 100%, 75% 0);
 }
 
+.title-intertain{
+  width: 100px;
+  height: 50px;
+  background-color: #FA5480;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  color: white;
+  /* clip-path: polygon(0 0, 0 100%, 100% 100%,100% 100%,); */
+  -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 100%, 75% 0);
+  clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 100%, 75% 0);
+}
+
+.title-technology{
+  width: 130px;
+  height: 50px;
+  background-color:#4390F8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  color: white;
+  /* clip-path: polygon(0 0, 0 100%, 100% 100%,100% 100%,); */
+  -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 100%, 75% 0);
+  clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 100%, 75% 0);
+}
+
+.title-lifeandsocial{
+  width: 150px;
+  height: 50px;
+  background-color:#38C378;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  color: white;
+  /* clip-path: polygon(0 0, 0 100%, 100% 100%,100% 100%,); */
+  -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 100%, 75% 0);
+  clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 100%, 75% 0);
+}
+
+.title-sport {
+  width: 100px;
+  height: 50px;
+  background-color: #F9A62B;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  color: white;
+  /* clip-path: polygon(0 0, 0 100%, 100% 100%,100% 100%,); */
+  -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 100%, 75% 0);
+  clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 100%, 75% 0);
+}
 .title i {
   padding-left: 4px;
 }
@@ -326,7 +406,7 @@ a:hover {
   width: 95%;
   height: 200px;
   margin-right: 5%;
-  background-color: green;
+  background-color: black;
 }
 
 .popular-image {
@@ -349,6 +429,30 @@ a:hover {
   height: 200px;
   background-color: red;
 }
+.popular-title-intertain {
+  width: 100%;
+  height: 200px;
+  background-color: #FA5480;
+}
+
+.popular-title-technology {
+  width: 100%;
+  height: 200px;
+  background-color: #4390F8;
+}
+
+.popular-title-lifeandsocial {
+  width: 100%;
+  height: 200px;
+  background-color:#38C378;
+}
+
+.popular-title-sport {
+  width: 100%;
+  height: 200px;
+  background-color:#F9A62B;
+}
+
 
 .next {
   color: red;
@@ -357,9 +461,41 @@ a:hover {
   top: 45%;
   right: -25px;
   cursor: pointer;
-
 }
 
+.next-intertain{
+  color: #FA5480;
+  font-size: 30px;
+  position: absolute;
+  top: 45%;
+  right: -25px;
+  cursor: pointer;
+}
+.next-technology{
+  color: #4390F8;
+  font-size: 30px;
+  position: absolute;
+  top: 45%;
+  right: -25px;
+  cursor: pointer;
+}
+.next-lifeandsocial{
+  color: #38C378;
+  font-size: 30px;
+  position: absolute;
+  top: 45%;
+  right: -25px;
+  cursor: pointer;
+}
+
+.next-sport{
+  color: #F9A62B;
+  font-size: 30px;
+  position: absolute;
+  top: 45%;
+  right: -25px;
+  cursor: pointer;
+}
 .footer-container {
   width: 100%;
   overflow: hidden;
@@ -533,7 +669,7 @@ hr{
 .line{
   width: 80px;
   height: 4px;
-  background-color: red;
+  background-color:#FA5480;
   margin-left: 15px;
 }
 .intertain-right-news{
