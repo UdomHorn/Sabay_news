@@ -46,6 +46,7 @@ img {
   top: 0;
   z-index: 10;
 }
+
 .home {
   background-color: rgba(0, 0, 0, 0.207);
 }
@@ -79,11 +80,13 @@ a:hover {
 .left {
   width: 70%;
 }
-.banner{
-  width:100% ;
+
+.banner {
+  width: 100%;
   height: 300px;
   background-color: green;
 }
+
 .left-box {
   width: 100%;
   height: 250px;
@@ -214,6 +217,7 @@ a:hover {
   height: 50px;
   border-bottom: 5px solid red;
 }
+
 .title-box-intertain {
   width: 100%;
   background-color: #eaeaea;
@@ -227,12 +231,14 @@ a:hover {
   height: 50px;
   border-bottom: 5px solid #4390F8;
 }
+
 .title-box-lifeandsocial {
   width: 100%;
   background-color: #eaeaea;
   height: 50px;
   border-bottom: 5px solid #38C378;
 }
+
 .title-box-sport {
   width: 100%;
   background-color: #eaeaea;
@@ -254,7 +260,7 @@ a:hover {
   clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 100%, 75% 0);
 }
 
-.title-intertain{
+.title-intertain {
   width: 100px;
   height: 50px;
   background-color: #FA5480;
@@ -268,10 +274,10 @@ a:hover {
   clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 100%, 75% 0);
 }
 
-.title-technology{
+.title-technology {
   width: 130px;
   height: 50px;
-  background-color:#4390F8;
+  background-color: #4390F8;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -282,10 +288,10 @@ a:hover {
   clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 100%, 75% 0);
 }
 
-.title-lifeandsocial{
+.title-lifeandsocial {
   width: 150px;
   height: 50px;
-  background-color:#38C378;
+  background-color: #38C378;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -309,6 +315,7 @@ a:hover {
   -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 100%, 75% 0);
   clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 100%, 75% 0);
 }
+
 .title i {
   padding-left: 4px;
 }
@@ -431,6 +438,7 @@ a:hover {
   height: 200px;
   background-color: red;
 }
+
 .popular-title-intertain {
   width: 100%;
   height: 200px;
@@ -446,13 +454,13 @@ a:hover {
 .popular-title-lifeandsocial {
   width: 100%;
   height: 200px;
-  background-color:#38C378;
+  background-color: #38C378;
 }
 
 .popular-title-sport {
   width: 100%;
   height: 200px;
-  background-color:#F9A62B;
+  background-color: #F9A62B;
 }
 
 
@@ -465,7 +473,7 @@ a:hover {
   cursor: pointer;
 }
 
-.next-intertain{
+.next-intertain {
   color: #FA5480;
   font-size: 30px;
   position: absolute;
@@ -473,7 +481,8 @@ a:hover {
   right: -25px;
   cursor: pointer;
 }
-.next-technology{
+
+.next-technology {
   color: #4390F8;
   font-size: 30px;
   position: absolute;
@@ -481,7 +490,8 @@ a:hover {
   right: -25px;
   cursor: pointer;
 }
-.next-lifeandsocial{
+
+.next-lifeandsocial {
   color: #38C378;
   font-size: 30px;
   position: absolute;
@@ -490,7 +500,7 @@ a:hover {
   cursor: pointer;
 }
 
-.next-sport{
+.next-sport {
   color: #F9A62B;
   font-size: 30px;
   position: absolute;
@@ -498,6 +508,7 @@ a:hover {
   right: -25px;
   cursor: pointer;
 }
+
 .footer-container {
   width: 100%;
   overflow: hidden;
@@ -617,49 +628,58 @@ a:hover {
   justify-content: space-between;
   margin-bottom: 1rem;
 }
-.intertain-subnews-image{
+
+.intertain-subnews-image {
   width: 34%;
   height: 150px;
   background-image: url(Images/sai.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  
+
 }
-.intertain-subnews-image:hover{
+
+.intertain-subnews-image:hover {
   transform: scale(0.99);
   transition: all 0.2s ease;
   box-shadow: inset 0 0 10px 0 black;
 }
-.intertain-subnews-text{
+
+.intertain-subnews-text {
   width: 64%;
   height: 150px;
   /* background-color: green; */
   font-family: "Battambang", system-ui;
 }
-.intertain-subnews-text h1{
+
+.intertain-subnews-text h1 {
   font-size: 16px;
   font-weight: bold;
   font-family: "Battambang", system-ui;
 }
-.intertain-subnews-text p{
-  color:gray;
+
+.intertain-subnews-text p {
+  color: gray;
   font-size: 13.6px;
 }
-.intertain-subnews-text .detail{
+
+.intertain-subnews-text .detail {
   font-size: 14px;
-  color:black;
+  color: black;
   margin-top: 1rem;
 }
-hr{
+
+hr {
   opacity: 30%;
 }
-.intertain-popular-article{
-  width:100% ;
+
+.intertain-popular-article {
+  width: 100%;
   height: 500px;
   /* background-color: green; */
 }
-.intertain-popular-article p{
+
+.intertain-popular-article p {
   text-decoration: none;
   color: gray;
   font-size: 20px;
@@ -668,18 +688,21 @@ hr{
   display: block;
   font-family: "Koulen", sans-serif;
 }
-.line{
+
+.line {
   width: 80px;
   height: 4px;
-  background-color:#FA5480;
+  background-color: #FA5480;
   margin-left: 15px;
 }
-.intertain-right-news{
+
+.intertain-right-news {
   display: flex;
   /* background-color: blue; */
   padding: 15px;
   overflow: hidden;
 }
+
 /* .switch-news{
   background-color: red;
   position:absolute;
@@ -692,45 +715,57 @@ hr{
   left: -15%;
   background-color: green;
 } */
-.right-detail{
+.right-detail {
   width: 100%;
   /* background-color: red; */
   overflow: hidden;
 }
-.right-detail a{
+
+.right-detail a {
   font-size: 14px;
   font-weight: bold;
   font-family: "Battambang", system-ui;
   padding-top: 0;
   padding-bottom: 0;
-  color:black;
+  color: black;
 
 }
-.intertain-right-image{
-  width:40px;
+
+.intertain-right-image {
+  width: 40px;
   height: 40px;
   background-image: url(Images/sai.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
+
 /* /////////////////////////// */
 
-@media(max-width: 768px){
+@media(max-width: 768px) {
   .container {
     width: 100%;
   }
 }
-@media(max-width: 768px){
-  .header,.right, .left ,.hotnews-image, .hotnews-text,.popular-news{
-    display:none;
+
+@media(max-width: 768px) {
+
+  .header,
+  .right,
+  .left,
+  .hotnews-image,
+  .hotnews-text,
+  .popular-news {
+    display: none;
   }
-  .separate-news{
+
+  .separate-news {
     width: 100%;
     /* height: 500px; */
     /* background-color: blue; */
   }
-  .news{
+
+  .news {
     width: 100%;
     overflow-x: scroll;
     flex-wrap: nowrap;
@@ -739,8 +774,8 @@ hr{
 
 }
 
-@media(min-width: 768px){
-  .banner{
+@media(min-width: 768px) {
+  .banner {
     display: none;
   }
 }
