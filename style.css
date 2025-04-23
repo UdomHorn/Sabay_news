@@ -32,7 +32,7 @@ p {
   align-items: center;
   
 }
-.container i{
+.bar{
   color:white;
   padding-left: 16px;
   font-size: 24px;
@@ -755,7 +755,7 @@ hr {
   .container {
     width: 100%;
   }
-  .container i{
+  .bar{
     display: block;
   }
   img{
