@@ -601,11 +601,13 @@ a:hover {
   width: 100%;
   overflow: hidden;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .intertain-hotnews {
   width: 49%;
-  height: 300px;
+  overflow: hidden;
+  padding-bottom: 8px;
   /* background-color: red; */
 }
 
@@ -623,7 +625,20 @@ a:hover {
   transition: all 0.2s ease;
   box-shadow: inset 0 0 10px 0 black;
 }
+.intertain-image1 {
+  width: 100%;
+  height: 150px;
+  background-image: url(Images/sai.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
+.intertain-image1:hover {
+  transform: scale(0.99);
+  transition: all 0.2s ease;
+  box-shadow: inset 0 0 10px 0 black;
+}
 .intertain-text {
   width: 100%;
   margin-top: 1rem;
@@ -819,6 +834,9 @@ hr {
 
 @media(min-width: 768px) {
   .banner {
+    display: none;
+  }
+  .container-small{
     display: none;
   }
 }
